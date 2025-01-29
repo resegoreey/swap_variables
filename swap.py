@@ -1,7 +1,10 @@
 x = input("Input any x value: ")
 y = input("Input any y value: ")
 
-z = x
+print(f"You have entered x = {x} and y = {y} before we swap them")
+
+x, y = y, x
+print()
 
 print(f"""The variables are swapped now
-     x = {y} and y = {x}""")
+     x = {x} and y = {y}""")
